@@ -1,0 +1,14 @@
+{
+  "name": "medical-affairs-mlr-review-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Medical/legal/regulatory content review, claims substantiation, references, approvals, and field medical workflows.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

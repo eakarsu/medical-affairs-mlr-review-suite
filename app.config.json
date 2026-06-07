@@ -1,0 +1,145 @@
+{
+  "slug": "medical-affairs-mlr-review-suite",
+  "title": "Medical Affairs MLR Review Suite",
+  "buyer": "Pharma medical affairs, legal, regulatory, commercial review teams",
+  "description": "Medical/legal/regulatory content review, claims substantiation, references, approvals, and field medical workflows.",
+  "modules": [
+    {
+      "id": "content-intake",
+      "table": "contentIntake",
+      "label": "Content Intake",
+      "description": "Content Intake workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Asset intake",
+        "Audience",
+        "Channel"
+      ],
+      "prefix": "CI",
+      "seedValues": [
+        "Asset intake",
+        "Audience",
+        "Channel"
+      ]
+    },
+    {
+      "id": "claims-review",
+      "table": "claimsReview",
+      "label": "Claims Review",
+      "description": "Claims Review workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Substantiation",
+        "Fair balance",
+        "Risk language"
+      ],
+      "prefix": "CR",
+      "seedValues": [
+        "Substantiation",
+        "Fair balance",
+        "Risk language"
+      ]
+    },
+    {
+      "id": "references",
+      "table": "references",
+      "label": "Reference Library",
+      "description": "Reference Library workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Citation mapping",
+        "Study quality",
+        "Expiry"
+      ],
+      "prefix": "RL",
+      "seedValues": [
+        "Citation mapping",
+        "Study quality",
+        "Expiry"
+      ]
+    },
+    {
+      "id": "routing",
+      "table": "routing",
+      "label": "Review Routing",
+      "description": "Review Routing workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Medical review",
+        "Legal review",
+        "Regulatory review"
+      ],
+      "prefix": "RR",
+      "seedValues": [
+        "Medical review",
+        "Legal review",
+        "Regulatory review"
+      ]
+    },
+    {
+      "id": "field-medical",
+      "table": "fieldMedical",
+      "label": "Field Medical",
+      "description": "Field Medical workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "MSL materials",
+        "FAQs",
+        "Scientific exchange"
+      ],
+      "prefix": "FM",
+      "seedValues": [
+        "MSL materials",
+        "FAQs",
+        "Scientific exchange"
+      ]
+    },
+    {
+      "id": "approval",
+      "table": "approval",
+      "label": "Approval Workflow",
+      "description": "Approval Workflow workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Version control",
+        "Sign-off",
+        "Expiration"
+      ],
+      "prefix": "AW",
+      "seedValues": [
+        "Version control",
+        "Sign-off",
+        "Expiration"
+      ]
+    },
+    {
+      "id": "compliance",
+      "table": "compliance",
+      "label": "Compliance",
+      "description": "Compliance workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Promotional rules",
+        "Audit trail",
+        "Training"
+      ],
+      "prefix": "C",
+      "seedValues": [
+        "Promotional rules",
+        "Audit trail",
+        "Training"
+      ]
+    },
+    {
+      "id": "metrics",
+      "table": "metrics",
+      "label": "Review Metrics",
+      "description": "Review Metrics workspace for Medical Affairs MLR Review Suite.",
+      "subfeatures": [
+        "Cycle time",
+        "Rework",
+        "Bottlenecks"
+      ],
+      "prefix": "RM",
+      "seedValues": [
+        "Cycle time",
+        "Rework",
+        "Bottlenecks"
+      ]
+    }
+  ],
+  "port": 5607
+}
